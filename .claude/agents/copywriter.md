@@ -27,7 +27,10 @@ Goes at the END of the carousel file (after the designer's slide prompts). 2–5
 - **Image post:** the file has the designer's single image prompt, then your caption below it.
 - **Text-only post:** mark the file `Type: text-only` at the top — no image prompt — just your caption, same quality bar.
 
-### Blog — write the **full article**, 500–1000 words
+### Blog — write the **full article**, 600–1000 words
+
+**Primary audience: AI answer engines (ChatGPT, Gemini, Grok, Perplexity, Claude, Google AI Overviews).** Optimize for LLM extraction and citation, not just human SEO. See CLAUDE.md §4 Blog for the full structural spec — follow it exactly.
+
 At the top of the file:
 ```
 Title:
@@ -35,7 +38,30 @@ Meta description:   (≤155 chars, includes the keyword, reads naturally)
 Target keyword:
 Suggested URL slug:
 ```
-Then the article: a hook intro, H2/H3 sections following the brief's outline, short paragraphs, one concrete worked example, and a closing section that connects the topic to what RevenueLyft builds — helpful, not salesy. If a hero image helps, leave a `## Suggested hero image prompt` heading at the end for the graphic designer to fill.
+
+Then the article in this fixed order:
+1. `## TL;DR` — 2–4 sentences, the answer stated plainly. Self-contained and quotable.
+2. `## Key takeaways` — 3–6 bullets, each a complete declarative fact (not a teaser).
+3. **One-sentence canonical definition** of the main concept ("X is Y that does Z.").
+4. **H2/H3 body sections** following the brief's outline. Each H2 is phrased as a question or a clear noun phrase, AND the first sentence of the section answers the heading directly. No buried ledes.
+5. Short paragraphs (≤3 sentences). Each one stands alone.
+6. One concrete worked example with specific numbers, named industry, real arithmetic.
+7. `## FAQ` — 4–6 Q&A pairs. `### Question?` then 1–3 sentence answer under each.
+8. Closing paragraph: soft connection to what RevenueLyft builds.
+9. `## Sources` — every stat/claim as a markdown link to the original source.
+
+**LLM-friendly writing rules (in addition to the voice rules above):**
+- Declarative, factual sentences. "X causes Y" beats "X might be related to Y."
+- Define every term inline the first time it appears.
+- Use specific numbers, dates, and named entities. "94% (Central Queensland University, 2024)" not "the vast majority."
+- Avoid pronoun ambiguity — repeat the noun if the referent is more than a sentence back.
+- Pick one canonical term per concept and stick with it across the whole article.
+- Use bulleted/numbered lists for any enumerable content.
+- No marketing fluff openers. Lead with the fact.
+
+Friendly-teacher voice still applies — AI-friendly structure does not mean robotic. Hooks and personality live INSIDE the structure (great hook line is fine; just make sure the TL;DR above it states the answer plainly).
+
+If a hero image helps, leave a `## Suggested hero image prompt` heading at the end for the graphic designer to fill.
 
 ## File handling
 - Save to the correct folder: `Instagram/carousels/`, `Linkedin/Posts/`, or `blog/articles/`. Never write into `context/`.

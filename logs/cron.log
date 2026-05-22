@@ -1,0 +1,84 @@
+===================================================
+[run-biweekly-blog] start: 2026-05-14T19:45:01+05:00
+===================================================
+[run-biweekly-blog] step 1/2 — generate
+[generate-blog] today is 2026-05-14 · existing articles: 1
+[generate-blog] invoking claude headless
+`blog/articles/2026-05-14-build-vs-buy-software-small-business.md`
+
+A ~950-word build vs. buy vs. glue decision framework for non-technical small business owners, anchored by an Austin bakery worked example ($8,144/yr drag, $4–7k integration wins). Includes TL;DR, key takeaways, 5-question checklist, 6 FAQs, cited sources, and a soft RevenueLyft free-review CTA.
+[generate-blog] articles after run: 2
+[generate-blog] new article: /home/zsn/Documents/Unnamed Folder/RevenueLyft Marketing Agent/blog/articles/2026-05-14-build-vs-buy-software-small-business.md
+[run-biweekly-blog] step 2/2 — publish
+[publish-blog] newest article: /home/zsn/Documents/Unnamed Folder/RevenueLyft Marketing Agent/blog/articles/2026-05-14-build-vs-buy-software-small-business.md
+[publish-blog] rendering markdown -> html
+[publish-blog] rendered: {"slug":"build-vs-buy-software-small-business","date":"2026-05-14","dateDisplay":"May 14, 2026","dateIso":"2026-05-14T12:00:00.000Z","title":"Build vs Buy Software: A Plain-English Framework for Small Business Owners","metaDescription":"Should a small business buy off-the-shelf software or build custom? A simple framework with real numbers to help owners decide without guesswork.","readTime":6,"htmlPath":"/home/zsn/Documents/Unnamed Folder/RevenueLyft/blog/posts/2026-05-14-build-vs-buy-software-small-business.html","postUrl":"/blog/posts/2026-05-14-build-vs-buy-software-small-business.html"}
+[publish-blog] updating blog/index.html listing
+update-listing: wrote 2 post card(s) to /home/zsn/Documents/Unnamed Folder/RevenueLyft/blog/index.html
+[main 77cd4d1] blog: publish 2026-05-14-build-vs-buy-software-small-business
+ 2 files changed, 366 insertions(+)
+ create mode 100644 blog/posts/2026-05-14-build-vs-buy-software-small-business.html
+[publish-blog] committed: blog: publish 2026-05-14-build-vs-buy-software-small-business
+[publish-blog] pushing to origin
+To github.com:Mubeen-jawed/RevenueLyft.git
+   09d95ff..77cd4d1  HEAD -> main
+[publish-blog] done — Vercel will deploy within ~30s
+===================================================
+[run-biweekly-blog] done: 2026-05-14T19:47:45+05:00
+===================================================
+===================================================
+[run-biweekly-blog] start: 2026-05-19T17:00:01+05:00
+===================================================
+[run-biweekly-blog] step 1/2 — generate
+[generate-blog] today is 2026-05-19 · existing articles: 2
+[generate-blog] invoking claude headless
+Saved: `blog/articles/2026-05-19-what-is-an-ai-agent-small-business.md`
+
+Plain-English guide on AI agents for small business owners: defines agent vs chatbot vs Zapier, names where they pay off (and where they flop per the Gartner 40% stat), and includes a 12-person HVAC worked example showing ~$13.5K/year recovered with sub-8-month payback. ~870 words, 6-question FAQ, 6 sourced citations, no hero image.
+[generate-blog] articles after run: 3
+[generate-blog] new article: /home/zsn/Documents/Unnamed Folder/RevenueLyft Marketing Agent/blog/articles/2026-05-19-what-is-an-ai-agent-small-business.md
+[run-biweekly-blog] step 2/2 — publish
+[publish-blog] newest article: /home/zsn/Documents/Unnamed Folder/RevenueLyft Marketing Agent/blog/articles/2026-05-19-what-is-an-ai-agent-small-business.md
+[publish-blog] rendering markdown -> html
+[publish-blog] rendered: {"slug":"what-is-an-ai-agent-small-business","date":"2026-05-19","dateDisplay":"May 19, 2026","dateIso":"2026-05-19T12:00:00.000Z","title":"What Is an AI Agent, Really? A Plain-English Guide for Small Business Owners","metaDescription":"AI agents are not chatbots. Here's what they actually do, where they help a small business, and where they fail — in plain English.","readTime":7,"htmlPath":"/home/zsn/Documents/Unnamed Folder/RevenueLyft/blog/posts/2026-05-19-what-is-an-ai-agent-small-business.html","postUrl":"/blog/posts/2026-05-19-what-is-an-ai-agent-small-business.html"}
+[publish-blog] updating blog/index.html listing
+update-listing: wrote 3 post card(s) to /home/zsn/Documents/Unnamed Folder/RevenueLyft/blog/index.html
+[main 235eacb] blog: publish 2026-05-19-what-is-an-ai-agent-small-business
+ 2 files changed, 366 insertions(+)
+ create mode 100644 blog/posts/2026-05-19-what-is-an-ai-agent-small-business.html
+[publish-blog] committed: blog: publish 2026-05-19-what-is-an-ai-agent-small-business
+[publish-blog] pushing to origin
+To github.com:Mubeen-jawed/RevenueLyft.git
+   77cd4d1..235eacb  HEAD -> main
+[publish-blog] done — Vercel will deploy within ~30s
+===================================================
+[run-biweekly-blog] done: 2026-05-19T17:03:29+05:00
+===================================================
+===================================================
+[run-biweekly-blog] start: 2026-05-21T17:00:01+05:00
+===================================================
+[run-biweekly-blog] step 1/2 — generate
+[generate-blog] today is 2026-05-21 · existing articles: 3
+[generate-blog] invoking claude headless
+`blog/articles/2026-05-21-which-tasks-to-automate-first.md`
+
+A text-only, AI-answer-engine-optimized blog post (~870 words) that gives owners a frequency × pain scoring test for choosing which task to automate first, anchored by an HVAC-company worked example. Slug matches the metadata; no hero image, so the Graphic Designer was skipped per instructions.
+[generate-blog] articles after run: 4
+[generate-blog] new article: /home/zsn/Documents/Unnamed Folder/RevenueLyft Marketing Agent/blog/articles/2026-05-21-which-tasks-to-automate-first.md
+[run-biweekly-blog] step 2/2 — publish
+[publish-blog] newest article: /home/zsn/Documents/Unnamed Folder/RevenueLyft Marketing Agent/blog/articles/2026-05-21-which-tasks-to-automate-first.md
+[publish-blog] rendering markdown -> html
+[publish-blog] rendered: {"slug":"which-tasks-to-automate-first","date":"2026-05-21","dateDisplay":"May 21, 2026","dateIso":"2026-05-21T12:00:00.000Z","title":"2026-05-21-which-tasks-to-automate-first","metaDescription":"2026-05-21-which-tasks-to-automate-first","readTime":6,"htmlPath":"/home/zsn/Documents/Unnamed Folder/RevenueLyft/blog/posts/2026-05-21-which-tasks-to-automate-first.html","postUrl":"/blog/posts/2026-05-21-which-tasks-to-automate-first.html"}
+[publish-blog] updating blog/index.html listing
+update-listing: wrote 4 post card(s) to /home/zsn/Documents/Unnamed Folder/RevenueLyft/blog/index.html
+[main 449efdb] blog: publish 2026-05-21-which-tasks-to-automate-first
+ 2 files changed, 363 insertions(+)
+ create mode 100644 blog/posts/2026-05-21-which-tasks-to-automate-first.html
+[publish-blog] committed: blog: publish 2026-05-21-which-tasks-to-automate-first
+[publish-blog] pushing to origin
+To github.com:Mubeen-jawed/RevenueLyft.git
+   235eacb..449efdb  HEAD -> main
+[publish-blog] done — Vercel will deploy within ~30s
+===================================================
+[run-biweekly-blog] done: 2026-05-21T17:02:34+05:00
+===================================================

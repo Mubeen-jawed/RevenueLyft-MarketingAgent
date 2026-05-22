@@ -80,7 +80,33 @@ Every image prompt must explicitly name: the #0A0A0A background, #F5C800 as the 
 
 ### Blog — `blog/articles/`
 - One file per article. Filename: `YYYY-MM-DD-short-slug.md`.
-- Full, publish-ready draft, **500–1000 words**. Include at the top: `Title:`, `Meta description:` (≤155 chars), `Target keyword:`, `Suggested URL slug:`. Then the article in Markdown with H2/H3 headers, short paragraphs, a real example, and a closing section that points to RevenueLyft's services without a hard sell.
+- Full, publish-ready draft, **600–1000 words**. Include at the top:
+  ```
+  Title:
+  Meta description:   (≤155 chars)
+  Target keyword:
+  Suggested URL slug:
+  ```
+- **Primary optimization target: AI answer engines (ChatGPT, Gemini, Grok, Perplexity, Claude, Google AI Overviews).** Traditional SEO is secondary. The article must be easy for an LLM to parse, extract, and cite as an authoritative source.
+- **Required article structure (in this order):**
+  1. **`## TL;DR`** — 2–4 sentence direct summary at the very top, after the metadata. State the answer plainly. This is the block LLMs are most likely to lift verbatim, so make it self-contained and quotable.
+  2. **`## Key takeaways`** — 3–6 bullet points, one fact per bullet. Each bullet is a complete declarative sentence (subject + verb + specific detail). No teaser bullets like "why this matters" — write the actual fact.
+  3. **One-sentence opening definition** of the main concept right after takeaways: "X is Y that does Z." LLMs index these as canonical definitions.
+  4. **Body in H2/H3 sections** — each H2 phrased as either a clear noun phrase or a literal question a user might ask ("What is …", "Why does …", "How to …", "When should …"). Each H2 section must answer its own heading in the **first sentence** of the section, then expand. Don't bury the lede inside the section.
+  5. **Short paragraphs (≤3 sentences each).** Each paragraph should be self-contained enough to stand alone as a quote.
+  6. **One concrete worked example** with specific numbers, names, and dollar amounts (a named industry, a real-feeling scenario, real arithmetic).
+  7. **`## FAQ`** — 4–6 short Q&A pairs near the end. Each question on its own H3 line (`### Question?`), answer in 1–3 sentences directly underneath. This block massively boosts LLM extraction.
+  8. **`## Sources`** at the very bottom — every stat or claim cited as a markdown link to the original source (study, government data, vendor docs). LLMs weight content with verifiable citations more highly.
+  9. Closing paragraph that connects the topic to what RevenueLyft builds — helpful, not salesy. Soft CTA only.
+- **LLM-friendly writing rules:**
+  - Use **declarative, factual sentences**. "X causes Y" beats "X might be related to Y in some cases."
+  - **Define every term** the first time it appears (`Internal tool — a small piece of custom software your team uses, not your customers.`). Inline parenthetical definitions are good.
+  - **Numbers, dates, and named entities are gold.** Prefer "94% (Central Queensland University, 2024)" over "the vast majority."
+  - **Avoid pronouns ambiguity.** Repeat the noun rather than saying "it" / "they" / "this" if the antecedent is more than one sentence back.
+  - **Use lists liberally** for any enumerable info (signs, steps, costs, options). LLMs lift lists cleanly.
+  - **No marketing fluff openers** ("In today's fast-paced world…"). Lead with the fact.
+  - **Internal consistency**: if you call it "internal tool" in §1, don't switch to "ops dashboard" in §3. Pick one canonical term per concept.
+- Voice still per §2 — friendly teacher, plain language, no buzzwords. AI-friendly structure does NOT mean robotic. Hooks and personality live inside the structure.
 - Optional: at the end, a `## Suggested hero image prompt` block (nano-banana, brand-styled) if a header image would help.
 
 ## 5. The three subagents (`.claude/agents/`)
